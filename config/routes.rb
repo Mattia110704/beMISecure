@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :parkingevents
   get 'home/welcome'
 
   devise_for :users
